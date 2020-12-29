@@ -63,7 +63,7 @@ export const readImage = async (imageName: string) => {
 		},
 	};
 	// console.log(aleteredImage);
-	const deadPixels = n + 1
+	const deadPixels = n + 4
 	incrementDeadPixels(imageName, deadPixels)
 	return aleteredImage;
 };

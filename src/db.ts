@@ -8,7 +8,6 @@ export const client = new Client({
 	port: 5432,
 });
 
-client.connect();
 
 // image migration
 // const query = `
